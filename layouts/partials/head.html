@@ -102,6 +102,10 @@
 {{- end }}
 {{- end }}
 
+{{- $lifegame := resources.Get "js/lifegame.js" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.2/d3.js"></script>
+<script defer crossorigin="anonymous" src="{{ $lifegame.RelPermalink }}"></script>
+
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
