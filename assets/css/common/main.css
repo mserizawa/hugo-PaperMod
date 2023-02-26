@@ -96,7 +96,7 @@ html, body {
   body {
     font-family: 'Heebo', sans-serif;
   
-    background: linear-gradient(60deg, #1d1d1d, #333535, #1d1d1d);
+    /* background: linear-gradient(60deg, #1d1d1d, #333535, #1d1d1d);
     background-size: 600% 600%;
-    animation: cellAnimation 10s ease infinite;
+    animation: cellAnimation 10s ease infinite; */
   }
