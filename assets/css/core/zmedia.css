@@ -14,6 +14,29 @@
         min-height: 260px;
     }
 
+    /* post-single */
+    .post-content {
+        font-size: 16px;
+    }
+
+    .post-title {
+        font-size: 30px;
+    }
+
+    .post-content h1 {
+        margin: 38px auto 30px;
+        font-size: 30px;
+    }
+    
+    .post-content h2 {
+        margin: 30px auto 22px;
+        font-size: 24px;
+    }
+    
+    .post-content h3 {
+        font-size: 20px;
+    }
+    
     /* archive */
     .archive-month {
         flex-direction: column;
